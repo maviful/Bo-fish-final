@@ -34,7 +34,7 @@ Include all your code below in distinct chunks where each one serves its own pur
 
 ```{r}
 print('testing')
-
+print('fowo')
 ```
 
 Add description for each chunk. At the end, the prepared data set should be assigned to a data frame (tibble) that will be used in the code in the next sections.
