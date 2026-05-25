@@ -1,0 +1,81 @@
+---
+title: "Final report title"
+author: "All Your Names"
+format: 
+  html:
+    self-contained: true
+editor: visual
+---
+
+```{r setup}
+#| include: false
+library(tidyverse)
+```
+
+## Summary
+
+A brief summary (one paragraph) of the project: the question, the main results, and conclusions.
+
+Describe the contribution of each team member to the project: (e.g. Jane Doe cleaned and processed the data, John Deer created visualizations and wrote the discussion)
+
+## Data preparation
+
+First, read in your data file:
+
+```{r}
+
+```
+
+Briefly explain how your processed the data and why you made the choices you did. For example, you have chosen only certain subsets of the data based on one or more variables, or you have merged two data frames to create a new one, or you excluded certain observations, in which case you need to justify your choices.
+
+Include all your code below in distinct chunks where each one serves its own purpose.
+
+```{r}
+
+```
+
+Add description for each chunk. At the end, the prepared data set should be assigned to a data frame (tibble) that will be used in the code in the next sections.
+
+```{r}
+
+```
+
+------------------------------------------------------------------------
+
+## Data description and visualization
+
+Once you have cleaned and filtered your data, you can perform your analysis and visualization.
+
+Visualize the relationship that you are exploring, usually between an explanatory or response variable, or show distributions of values in different conditions, whatever is appropriate. These could be scatterplots, bar plots, box plots, or histograms - all should have labeled axes and legends if needed. Briefly explain in the text what the table shows. Each separate plot should be in a separate code chunk.
+
+```{r}
+
+```
+
+Usually, it's important to show summary statistics. Print out a table that compares statistics (e.g. means and standard deviations) for your variables of interest, possibly divided by categories of another variable. Briefly explain what the table shows. Each separate table should be in a separate code chunk.
+
+```{r}
+
+```
+
+## Statistical Analysis
+
+Perform the statistical analysis or modeling, or any other work to answer the question you posed. For example, it could be a ANOVA test, or a linear regression, or trained a classification model to predict a response variable. Print out the results of your analysis that can be used to answer your questions. Briefly explain what results you are showing. If you performed several analyses, put each one in a separate chunk.
+
+```{r}
+
+```
+
+All models and methods are based on assumptions. Explain what the assumptions are for your model or method, and why it's appropriate for your variables.
+
+```{r}
+
+```
+
+## Discussion
+
+Write a short summary of what your results: what they mean for the question(s), what you learned from them, and how certain you are of the conclusions. This does not need to be a long essay!
+
+## References
+
+List any resources you used, with links or citations.
