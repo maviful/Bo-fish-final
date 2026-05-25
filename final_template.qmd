@@ -24,6 +24,8 @@ First, read in your data file:
 
 ```{r}
 
+library(tidyverse)
+library(adklakedata)
 ```
 
 Briefly explain how your processed the data and why you made the choices you did. For example, you have chosen only certain subsets of the data based on one or more variables, or you have merged two data frames to create a new one, or you excluded certain observations, in which case you need to justify your choices.
